@@ -8,6 +8,7 @@ import FeaturedProduct from "@/components/FeaturedProduct";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
+
 const Home = () => {
   return (
     <>
@@ -16,12 +17,14 @@ const Home = () => {
         <HeaderSlider />
         <HomeProducts />
         <FeaturedProduct />
-        <Banner />
+        <Banner /> 
         <NewsLetter />
       </div>
       <Footer />
+     
     </>
   );
 };
 
 export default Home;
+
